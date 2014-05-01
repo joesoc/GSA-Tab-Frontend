@@ -1,5 +1,5 @@
 <!-- ************ Custom Template - Vinay Joseph -
-	Edit only tabs variable XML to generate tab. DO NOT EDIT anything below html line 537. 
+	Edit only tabs variable XML to generate tab. DO NOT EDIT anything below html line 17. 
 *********-->
 
 <xsl:template name="gsa_custom_tabs">
