@@ -9,7 +9,7 @@
 
 		<xsl:variable name="tabs">
 			<tabs>
-				<tab name="All" href="/search?q={$space_normalized_query}&amp;site=AppScript&amp;client=wc_frontend&amp;proxystylesheet=wc_frontend" col="AppScript" ctype="All_tab"></tab>
+				<tab name="App Script" href="/search?q={$space_normalized_query}&amp;site=AppScript&amp;client=wc_frontend&amp;proxystylesheet=wc_frontend" col="AppScript" ctype="All_tab"></tab>
 				<tab name="Python" href="/search?q={$space_normalized_query}&amp;site=python_docs&amp;client=wc_frontend&amp;proxystylesheet=wc_frontend" col="python_docs" ctype="python_tabs"></tab>
 			</tabs>
 		</xsl:variable>
