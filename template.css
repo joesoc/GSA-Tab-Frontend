@@ -44,9 +44,9 @@
 .nav-tabs > li > a:focus {
   border-color: #eeeeee #eeeeee #dddddd;
 }
-.nav-tabs > .active > a,
-.nav-tabs > .active > a:hover,
-.nav-tabs > .active > a:focus {
+.nav-tabs > li.active > a,
+.nav-tabs > li.active > a:hover,
+.nav-tabs > li.active > a:focus {
   background-color: <xsl:value-of select='$activetab_background_color'></xsl:value-of>;
   border: 1px solid <xsl:value-of select='$tab_border_color'></xsl:value-of>;
   border-bottom-color: transparent;
